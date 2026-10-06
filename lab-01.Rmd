@@ -236,7 +236,7 @@ visitors_with_nations <- visitors %>%
       region == "Scotland" ~ "Scotland",
       region == "Wales" ~ "Wales",
       TRUE ~ "England"
-    )
+    )c
   )
 
 visitors_with_nations %>% 
